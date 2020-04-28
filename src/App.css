@@ -1,5 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 .App {
   text-align: center;
+  background-color: #171E30;
+  min-height: 93vh;
+}
+
+.label-text{
+  font-family: 'Righteous', cursive;
+  font-size: 1.5rem;
+  color :#0DFFA4;
+  margin-bottom: 20px;
+}
+
+.label-button{
+  background-color: #0DFFA4;
+padding: 15px;
+font-size: 17px;
+border-radius: 30px;
+/* text-align: left; */
+
+
+}
+
+.preview-text{
+  color:white;
+  font-size: 26px;
+  margin-top: 40px;
+}
+
+.datat-fetch{
+  align-self: initial;
+  text-align: start;
+  margin-left: 30px;
+}
+
+.preview-image{
+  /* margin-top: 10px; */
+  height: 40vh;
+  width: 60vw;
+  border-radius: 20px;
+}
+
+button.btn.btn-primary {
+  outline: none;
+}
+
+.a,.a:focus,.a:active{
+  outline: none;
+}
+
+.label-button:active, .label-button:focus,.label-text:active, .label-text:focus{
+  outline: none !important;
 }
 
 .App-logo {
