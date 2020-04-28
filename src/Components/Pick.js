@@ -88,6 +88,7 @@ export class Pick extends Component {
                 <Card >
                     
                     <div>
+                        <br></br>
                         <label className="label-text">Pick Image to verify</label><br></br>
                         
                         <input className ="label-button" 
