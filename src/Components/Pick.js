@@ -32,7 +32,7 @@ export class Pick extends Component {
         var formData = new FormData();
         formData.append('image',this.state.photo);
 
-        axios.post(`http://52.77.226.241:8080/image/identify`,formData)
+        axios.post(`http://http://54.254.0.251:2000/image/identify1`,formData)
       .then(res => {
         console.log(res.data);
         if(res.data.message != undefined)
